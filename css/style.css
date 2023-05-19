@@ -6,6 +6,9 @@
     --layout-top: 70px;
     --layout-side-xs: 70px;
     --layout-side-lg: 160px;
+
+    /* Palette */
+    --col-darkgray: #e5e5e5;
 }
 
 
@@ -43,7 +46,28 @@
 ? ELEMENTS
 * ***********************************************************************************/
 
+/* *****************************************
+* Navbar
+* *****************************************/
+/* Logo */
+#navbar-logo-xs {
+    height: 50px;
+    display: block;
+}
 
+#navbar-logo-lg {
+    height: 30px;
+}
+
+/* Search */
+#main-navbar .form-control {
+    border-left: 0;
+    background-color: var(--col-darkgray);
+}
+
+#main-navbar .input-group-text {
+    background-color: var(--col-darkgray);
+}
 
 
 
