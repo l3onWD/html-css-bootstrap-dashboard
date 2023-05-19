@@ -9,6 +9,7 @@
 
     /* Palette */
     --col-darkgray: #e5e5e5;
+    --col-darkblue: #051e34;
 }
 
 
@@ -67,6 +68,14 @@
 
 #main-navbar .input-group-text {
     background-color: var(--col-darkgray);
+}
+
+
+/* *****************************************
+* Sidebar
+* *****************************************/
+.sidebar {
+    background: var(--col-darkblue) url('../img/sidebar-bg.png');
 }
 
 
