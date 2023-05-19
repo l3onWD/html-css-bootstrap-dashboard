@@ -1,10 +1,13 @@
 /* *****************************************
 ! DEBUG
 * *****************************************/
+
+/* Border */
 .db-border {
     border: 2px dashed #000;
 }
 
+/* Height */
 .db-h-1x {
     min-height: 100px;
 }
@@ -17,10 +20,42 @@
     border: 2px dashed green;
 }
 
+
+/* Colors */
+.db-red {
+    background-color: red;
+}
+
+.db-green {
+    background-color: green;
+}
+
+.db-blue {
+    background-color: blue;
+}
+
+.db-yellow {
+    background-color: goldenrod;
+}
+
+.db-purple {
+    background-color: purple;
+}
+
+.db-dark {
+    background-color: darkslateblue;
+}
+
+.db-light {
+    background-color: lightgray;
+}
+
+
+/* Layout */
 .row {
     border: 2px dashed goldenrod;
 }
 
 [class^="col"] {
-    border: 2px dashed blue;
+    border: 2px dashed cyan;
 }
