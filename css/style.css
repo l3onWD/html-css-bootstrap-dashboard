@@ -89,21 +89,21 @@
 
 
 /* *****************************************
-* Stats Section
+* Content Section
 * *****************************************/
 
 /* Table */
-#stats td img {
+#content-section td img {
     width: 30px;
 }
 
-#stats th:nth-child(2),
-#stats th:nth-child(5) {
+#content-section th:nth-child(2),
+#content-section th:nth-child(5) {
     width: 110px;
 }
 
-#stats th:nth-child(3),
-#stats th:nth-child(4) {
+#content-section th:nth-child(3),
+#content-section th:nth-child(4) {
     width: 75px;
 }
 
