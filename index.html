@@ -481,20 +481,20 @@
                     <div class="offcanvas-body container-fluid">
                         
                         <!-- Form -->
-                        <form>
+                        <form method="post" action="http://marcolanci.it/lezioni/read_form.php">
 
                             <div class="row">
 
                                 <!-- First Name -->
                                 <div class="col-12 col-md-6 mb-3">
                                     <label for="student-firstname" class="form-label">Nome</label>
-                                    <input type="text" class="form-control" id="student-firstname">
+                                    <input type="text" class="form-control" id="student-firstname" name="firstname">
                                 </div>
 
                                 <!-- Last Name -->
                                 <div class="col-12 col-md-6 mb-3">
                                     <label for="student-lastname" class="form-label">Cognome</label>
-                                    <input type="text" class="form-control" id="student-lastname">
+                                    <input type="text" class="form-control" id="student-lastname" name="lastname">
                                 </div>
 
                                 <!-- Email -->
@@ -502,34 +502,34 @@
                                     <label for="student-email" class="form-label">Email</label>
                                     <div class="input-group">
                                         <span class="input-group-text">@</span>
-                                        <input type="email" class="form-control" id="student-email">
+                                        <input type="email" class="form-control" id="student-email" name="email">
                                     </div>
                                 </div>
 
                                 <!-- Password -->
                                 <div class="col-12 col-md-6 mb-3">
                                     <label for="student-password" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="student-password">
+                                    <input type="password" class="form-control" id="student-password" name="psw">
                                 </div>
 
                                 <!-- Address -->
                                 <div class="col-12 mb-3">
                                     <label for="student-address" class="form-label">Indirizzo</label>
-                                    <input type="text" class="form-control" id="student-address">
+                                    <input type="text" class="form-control" id="student-address" name="address">
                                 </div>
 
                                 <!-- City -->
                                 <div class="col-12 col-md-6 mb-3">
                                     <label for="student-city" class="form-label">Città</label>
-                                    <input type="text" class="form-control" id="student-city">
+                                    <input type="text" class="form-control" id="student-city" name="city">
                                 </div>
 
                                 <!-- Country -->
                                 <div class="col-12 col-md-4 mb-3">
-                                    <label for="student-country" class="form-label">Città</label>
+                                    <label for="student-country" class="form-label">Nazione</label>
 
-                                    <select class="form-select" id="student-country">
-                                        <option selected>Scegli...</option>
+                                    <select class="form-select" id="student-country" name="country">
+                                        <option value="-" selected>Scegli...</option>
                                         <option value="ita">Italia</option>
                                         <option value="ger">Germania</option>
                                         <option value="fra">Francia</option>
@@ -540,20 +540,20 @@
                                 <!-- CAP -->
                                 <div class="col-12 col-md-2 mb-3">
                                     <label for="student-cap" class="form-label">CAP</label>
-                                    <input type="text" class="form-control" id="student-cap">
+                                    <input type="text" class="form-control" id="student-cap" name="cap">
                                 </div>
 
                                 <!-- Image Upload -->
                                 <div class="col-12 mb-3">
                                     <label for="student-img" class="form-label">Foto</label>
-                                    <input type="file" accept="image/png, image/jpeg" class="form-control" id="student-img">
+                                    <input type="file" accept="image/png, image/jpeg" class="form-control" id="student-img" name="img">
                                 </div>
 
                             </div>
 
                             <!-- Privacy Check -->
                             <div class="form-check mb-3">
-                                <input class="form-check-input" type="checkbox" value="" id="student-privacy">
+                                <input class="form-check-input" type="checkbox" value="" id="student-privacy" name="privacy">
                                 <label class="form-check-label" for="student-privacy">
                                     Seleziona per proseguire
                                 </label>
