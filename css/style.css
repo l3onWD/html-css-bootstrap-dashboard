@@ -79,6 +79,12 @@
     background-color: var(--col-darkgray);
 }
 
+/* Dropdown */
+#main-navbar .dropstart .dropdown-menu {
+    top: 80%;
+    right: 50%;
+}
+
 
 /* *****************************************
 * Sidebar
