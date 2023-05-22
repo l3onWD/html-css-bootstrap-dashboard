@@ -10,6 +10,10 @@
     /* Palette */
     --col-darkgray: #e5e5e5;
     --col-darkblue: #051e34;
+
+    /* Gradients*/
+    --lg-sidebar-01: 230deg, transparent 35%, rgba(255,255,255,0.05) 35%, transparent 100%;
+    --lg-sidebar-02: 140deg, transparent 70%, rgba(255,255,255,0.05) 70%, transparent 100%;
 }
 
 
@@ -92,7 +96,8 @@ html {
 * Sidebar
 * *****************************************/
 .sidebar {
-    background: var(--col-darkblue) url('../img/sidebar-bg.png');
+    background-color: var(--col-darkblue) ;
+    background-image: linear-gradient(var(--lg-sidebar-01)), linear-gradient(var(--lg-sidebar-02));
 }
 
 .sidebar a:hover {
@@ -145,7 +150,7 @@ html {
 }
 
 
-/* Media xl */
+/* Media XL */
 @media screen and (min-width: 1200px) {
 
     /* *****************************************
