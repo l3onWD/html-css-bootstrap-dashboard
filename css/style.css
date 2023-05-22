@@ -91,9 +91,22 @@
 /* *****************************************
 * Stats Section
 * *****************************************/
+
+/* Table */
 #stats td img {
     width: 30px;
 }
+
+#stats th:nth-child(2),
+#stats th:nth-child(5) {
+    width: 110px;
+}
+
+#stats th:nth-child(3),
+#stats th:nth-child(4) {
+    width: 75px;
+}
+
 
 
 /* **********************************************************************************
