@@ -135,8 +135,13 @@
 
                             <!-- New Student -->
                             <div class="col-12 col-sm-4 col-lg-2 py-2 order-sm-1">
+
                                 <span class="me-3">Nuovo Studente</span>
-                                <button class="btn btn-outline-light"><i class="fas fa-plus"></i></button>
+
+                                <!-- Offcanvas Toggler -->
+                                <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#student-add-offcanvas"
+                                aria-controls="student-add-offcanvas"><i class="fas fa-plus"></i></button>
+
                             </div>
 
                             <!-- Plans -->
@@ -172,7 +177,6 @@
                                 </ul> 
 
                             </div>
-
 
                             <!-- Student Stats -->
                             <div class="col-12 col-sm-4 col-lg-4 py-2">
@@ -464,6 +468,38 @@
                     </div>
 
                 </section>
+
+
+                <!-- Sudent Add Offcanvas -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="student-add-offcanvas" aria-labelledby="student-add-label">
+
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="student-add-label">Inserisci un nuovo studente</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body container-fluid">
+                        
+                        <!-- Name -->
+                        <form class="row">
+
+                            <!-- First Name -->
+                            <div class="col-6">
+                                <label for="student-firstname" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="student-firstname">
+                            </div>
+
+                            <!-- Last Name -->
+                            <div class="col-6">
+                                <label for="student-lastname" class="form-label">Cognome</label>
+                                <input type="text" class="form-control" id="student-lastname">
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
 
             </main>
 
